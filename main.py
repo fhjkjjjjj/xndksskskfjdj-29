@@ -9,7 +9,7 @@ bot_api = "5664500690:AAEL3QRmTfkuFiUXzjjHZA-jEt02iQ9ly2o"
 bot = telebot.TeleBot(bot_api)
 os.system("clear")
 #file_name = input("\033[0;34m|\033[0;31mEnter your Combo list  \n\033[0;34m|-> \033[0;32m")
-file =open(file_name,'r')
+#file =open(file_name,'r')
 def pr(list):
  i=1
  for e in list:
